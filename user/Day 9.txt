@@ -1,0 +1,5 @@
+zoo = input ('Rock, Paper, Scissors')
+# ^^ to start the game
+import random 
+foo = ['Rock' , 'Paper' , 'Scissors']
+print(random.choice(foo))

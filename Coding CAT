@@ -1,0 +1,54 @@
+   Preview
+1
+import random
+2
+def genreselection():
+3
+Horrortitle = ["Fiendish", "The May Queen Murders", "Blood & Salt"]
+4
+Horrorauthor = ["Brenna Yovanoff", "Sarah Jude", "Kim Liggett"]
+5
+Horrordescription = ["Clementine DeVore spent ten years trapped in a cellar, pinned down by willow roots, silenced and forgotten.
+6
+Now she’s out and determined to uncover who put her in that cellar and why", "Those are the rules in Rowan’s Glen, a remote farming community in the Missouri Ozarks where Ivy Templeton’s family has lived for centuries. It’s an old-fashioned way of life, full of superstition and traditions, and sixteen-year-old Ivy loves it. The other kids at school may think the Glen kids are weird, but Ivy doesn’t care—she has her cousin Heather as her best friend. The two girls share everything with each other—or so Ivy thinks. When Heather goes missing after a May Day celebration, Ivy discovers that both her best friend and her beloved hometown are as full of secrets as the woods that surround them", "Ash is plagued by memories of her ancestor, Katia, which harken back to the town’s history of unrequited love and murder, alchemy and immortality. Charming traditions soon give way to a string of gruesome deaths, and Ash feels drawn to Dane, a forbidden boy with secrets of his own.
+7
+As the community prepares for a ceremony five hundred years in the making, Ash must fight not only to save her mother, but herself—and discover the truth about Quivira before it’s too late. Before she’s all in—blood and salt."]
+8
+Mysterytitle = ["The Girl I used to Be", "The Body in the Wind", "To Catch a Killer"]
+9
+Mysteryauthor = ["April Henry", "April Henry", "Sheryl Scarborough"]
+10
+Mysterydescription = ["When Olivia’s mother was murdered and her father disappeared, everyone suspected her father had done it. Fast-forward fourteen years. New evidence now proves Olivia’s father was actually murdered on the same fateful day her mother died. That means there’s a killer still at large. Can Olivia uncover the truth before the killer tracks her down?", "Alexis, Nick, and Ruby have very different backgrounds: Alexis has spent her life covering for her mom’s mental illness, Nick’s bravado hides his fear of not being good enough, and Ruby just wants to pursue her eccentric interests in a world that doesn’t understand her. When the three teens join Portland County Sheriff’s Search and Rescue, they are teamed up to search for a autistic man lost in the woods. What they find instead is a dead body. In a friendship that will be forged in danger, fear, and courage, the three team up to find the girl’s killer—before he can strike one of their own.", "Erin Blake has one of those names. A name that, like Natalee Holloway or Elizabeth Smart, is inextricably linked to a grisly crime. As a toddler, Erin survived for three days alongside the corpse of her murdered mother, and the case—which remains unsolved—fascinated a nation. Her father's identity unknown, Erin was taken in by her mother's best friend and has become a relatively normal teen in spite of the looming questions about her past. Fourteen years later, Erin is once again at the center of a brutal homicide when she finds the body of her biology teacher. When questioned by the police, Erin tells almost the whole truth, but never voices her suspicions that her mother's killer has struck again in order to protect the casework she's secretly doing on her own. Inspired by her uncle, an FBI agent, Erin has ramped up her forensic hobby into a full-blown cold-case investigation. This new murder makes her certain she's close to the truth, but when all the evidence starts to point the authorities straight to Erin, she turns to her longtime crush (and fellow suspect) Journey Michaels to help her crack the case before it's too late."] 
+11
+Fantasytitle = ["Daughter of Smoke and Bone", "Carry On", "The Cruel Prince"]
+12
+Fantasyauthor = ["Laini Taylor", "Rainbow Rowell", "Holly Black"]
+13
+Fantasydescription = ["Around the world, black hand prints are appearing on doorways, scorched there by winged strangers who have crept through a slit in the sky.
+14
+In a dark and dusty shop, a devil’s supply of human teeth grows dangerously low. And in the tangled lanes of Prague, a young art student is about to be caught up in a brutal otherworldly war. Meet Karou. She fills her sketchbooks with monsters that may or may not be real, she’s prone to disappearing on mysterious "errands", she speaks many languages - not all of them human - and her bright blue hair actually grows out of her head that color. Who is she? That is the question that haunts her, and she’s about to find out. When beautiful, haunted Akiva fixes fiery eyes on her in an alley in Marrakesh, the result is blood and starlight, secrets unveiled, and a star-crossed love whose roots drink deep of a violent past. But will Karou live to regret learning the truth about herself?", "Simon Snow is the worst Chosen One who's ever been chosen.
+15
+That's what his roommate, Baz, says. And Baz might be evil and a vampire and a complete git, but he's probably right.
+16
+Half the time, Simon can't even make his wand work, and the other half, he starts something on fire. His mentor's avoiding him, his girlfriend broke up with him, and there's a magic-eating monster running around, wearing Simon's face. Baz would be having a field day with all this, if he were here — it's their last year at the Watford School of Magicks, and Simon's infuriating nemesis didn't even bother to show up.", "Jude was seven when her parents were murdered and she and her two sisters were stolen away to live in the treacherous High Court of Faerie. Ten years later, Jude wants nothing more than to belong there, despite her mortality. But many of the fey despise humans. Especially Prince Cardan, the youngest and wickedest son of the High King. To win a place at the Court, she must defy him–and face the consequences. As Jude becomes more deeply embroiled in palace intrigues and deceptions, she discovers her own capacity for trickery and bloodshed. But as betrayal threatens to drown the Courts of Faerie in violence, Jude will need to risk her life in a dangerous alliance to save her sisters, and Faerie itself."] 
+17
+Romancetitle = ["The Selection", "Tell Me Three Things", "Pink"]
+18
+Romanceauthor = ["Kiera Cass", "Julie Buxbaum", "Lily Wilkinson"]
+19
+Romancedescription = ["Jude was seven when her parents were murdered and she and her two sisters were stolen away to live in the treacherous High Court of Faerie. Ten years later, Jude wants nothing more than to belong there, despite her mortality. But many of the fey despise humans. Especially Prince Cardan, the youngest and wickedest son of the High King. To win a place at the Court, she must defy him–and face the consequences. As Jude becomes more deeply embroiled in palace intrigues and deceptions, she discovers her own capacity for trickery and bloodshed. But as betrayal threatens to drown the Courts of Faerie in violence, Jude will need to risk her life in a dangerous alliance to save her sisters, and Faerie itself.", "Everything about Jessie is wrong. At least, that’s what it feels like during her first week of junior year at her new ultra-intimidating prep school in Los Angeles. Just when she’s thinking about hightailing it back to Chicago, she gets an email from a person calling themselves Somebody/Nobody (SN for short), offering to help her navigate the wilds of Wood Valley High School. Is it an elaborate hoax? Or can she rely on SN for some much-needed help? It’s been barely two years since her mother’s death, and because her father eloped with a woman he met online, Jessie has been forced to move across the country to live with her stepmonster and her pretentious teenage son.In a leap of faith—or an act of complete desperation—Jessie begins to rely on SN, and SN quickly becomes her lifeline and closest ally. Jessie can’t help wanting to meet SN in person. But are some mysteries better left unsolved?", "The pink jumper was practically glowing in my grey bedroom. It was like a tiny bit of Dorothy’s Oz in boring old black-and-white Kansas. Pink was for girls. Ava Simpson is trying on a whole new image. Stripping the black dye from her hair, she heads off to the Billy Hughes School for Academic Excellence, leaving her uber-cool girlfriend, Chloe, behind. Ava is quickly taken under the wing of perky, popular Alexis who insists that: a) she’s a perfect match for handsome Ethan; and b) she absolutely must audition for the school musical. But while she’s busy trying to fit in — with Chloe, with Alexis and her Pastel friends, even with the misfits in the stage crew — Ava fails to notice that her shiny reinvented life is far more fragile than she imagined."]
+20
+​
+21
+bookmenu ='1'
+22
+while bookmenu =='1':
+23
+    print("What genre of book are you interested in?")
+24
+    print("Type ONE for romance")
+25
+    print("Type TWO for fantasy")
+26
+    print("Type THREE for horror")
+27
